@@ -5,10 +5,14 @@ int main(int argc, char *argv[]){
     childProc(argc, argv);
     return 0;
   }
-  STARTUPINFO si[];
-  PROCESSINFO pi[];
+  STARTUPINFO si[2];
+  PROCESSINFO pi[2];
   ZeroMemory(&pi);
   ZeroMemory(&si);
-  
+  for(int i = 0; i < 2; i++){
+      CreateProcess(
+              
+        );
+  }
   return 0;
 }

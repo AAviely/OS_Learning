@@ -6,8 +6,8 @@ int main(int argc, char *argv[]){
     return 0;
   }
   STARTUPINFO si[2];
-  PROCESSINFO pi[2];
-  ZeroMemory(&pi);
+  PROCESS_INFORMATION pi[2];
+  ZeroMemory(&si, sizeof(si));
   ZeroMemory(&si);
   for(int i = 0; i < 2; i++){
       CreateProcess(

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/USER/OneDrive/מסמכים/GitHub/OS_Learning/shared_mem/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\SharedMemApp.dir\\SharedMem_summary.cpp.obj -c C:\\Users\\USER\\OneDrive\\מסמכים\\GitHub\\OS_Learning\\shared_mem\\SharedMem_summary.cpp",
+  "file": "C:\\Users\\USER\\OneDrive\\מסמכים\\GitHub\\OS_Learning\\shared_mem\\SharedMem_summary.cpp",
+  "output": "CMakeFiles\\SharedMemApp.dir\\SharedMem_summary.cpp.obj"
+}
+]

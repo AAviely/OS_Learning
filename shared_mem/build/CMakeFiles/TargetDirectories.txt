@@ -1,0 +1,3 @@
+C:/Users/USER/OneDrive/מסמכים/GitHub/OS_Learning/shared_mem/build/CMakeFiles/SharedMemApp.dir
+C:/Users/USER/OneDrive/מסמכים/GitHub/OS_Learning/shared_mem/build/CMakeFiles/edit_cache.dir
+C:/Users/USER/OneDrive/מסמכים/GitHub/OS_Learning/shared_mem/build/CMakeFiles/rebuild_cache.dir

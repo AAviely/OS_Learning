@@ -1,0 +1,44 @@
+# --- Build Artifacts ---
+# Ignore the entire build folder where CMake/Ninja work
+build/
+out/
+bin/
+lib/
+
+# --- Compiled Files ---
+*.exe
+*.pdb
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.bin
+
+# --- CMake / Build System ---
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+CMakeUserPresets.json
+*.ninja_log
+*.ninja_deps
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# --- IDEs (VS Code, Visual Studio) ---
+.vs/
+.vscode/ipch/
+.vscode/msvc.json
+.cache/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.filters
+
+# --- OS Specific ---
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,16 @@
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 100
+
+# OPTION A: Stop sorting includes entirely (The safest way)
+SortIncludes: false
+
+# OPTION B: If you WANT sorting, but want windows.h to stay at the top:
+# SortIncludes: true
+# IncludeCategories:
+#   - Regex: '^<windows\.h>'
+#     Priority: -1
+#   - Regex: '^<.*'
+#     Priority: 1
+#   - Regex: '.*'
+#     Priority: 2

@@ -13,4 +13,4 @@ find_package(Threads REQUIRED)
 
 # Targets
 add_subdirectory(ParallelPrimeSearch)
-add_subdirectory(shared_mem)
+#add_subdirectory(shared_mem)

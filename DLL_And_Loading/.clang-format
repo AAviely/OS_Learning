@@ -1,0 +1,23 @@
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 80
+
+# The "Always Break" settings
+AlignAfterOpenBracket: AlwaysBreak
+BinPackArguments: false
+BinPackParameters: false
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+
+# The Penalty settings (Makes packing "expensive" for the editor)
+PenaltyBreakBeforeFirstCallParameter: 1
+PenaltyExcessCharacter: 100
+PenaltyReturnTypeOnItsOwnLine: 20
+
+# Header Sorting
+SortIncludes: true
+IncludeCategories:
+  - Regex: '^<windows\.h>'
+    Priority: -1
+  - Regex: '^<.*'
+    Priority: 1

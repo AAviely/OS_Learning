@@ -1,16 +1,12 @@
-cmake_minimum_required(VERSION 3.15)
-project(ParallelPrimeSearch LANGUAGES CXX)
+add_executable(ParallelPrimeSearch)
 
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Find threading library
-find_package(Threads REQUIRED)
+target_include_directories(ParallelPrimeSearch PRIVATE include)
 
-# Executable target including all your source files
-add_executable(ParallelPrimeSearch 
-    main.cpp
+
+target_sources(ParallelPrimeSearch PRIVATE
+    src/main.cpp
 )
 
-# Link threads
+
 target_link_libraries(ParallelPrimeSearch PRIVATE Threads::Threads)

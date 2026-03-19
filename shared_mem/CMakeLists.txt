@@ -1,9 +1,10 @@
-cmake_minimum_required(VERSION 3.20)
-project(MyCppProject VERSION 1.0 LANGUAGES CXX)
+add_executable(SharedMemApp)
 
-# Require modern C++ (e.g., C++20)
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+target_include_directories(SharedMemApp PRIVATE include)
+
 
 # Add your main executable
-add_executable(SharedMemApp SharedMem_summary.cpp)
+target_sources(SharedMemApp PRIVATE
+    src/SharedMem_summary.cpp
+)

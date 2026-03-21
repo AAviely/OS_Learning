@@ -14,3 +14,10 @@ find_package(Threads REQUIRED)
 # Targets
 add_subdirectory(ParallelPrimeSearch)
 #add_subdirectory(shared_mem)
+add_subdirectory(dll_impl_example)
+add_subdirectory(dll_usage_example)
+
+file(COPY_FILE
+    "${CMAKE_BINARY_DIR}/compile_commands.json"
+    "${CMAKE_SOURCE_DIR}/compile_commands.json"
+)

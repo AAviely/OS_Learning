@@ -12,5 +12,4 @@ target_sources(ParallelPrimeSearch PRIVATE
 
 target_link_libraries(ParallelPrimeSearch PRIVATE 
     Threads::Threads
-    SharedExpr
 )

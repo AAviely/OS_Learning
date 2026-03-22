@@ -2,14 +2,14 @@
   "version": 3,
   "configurePresets": [
     {
-      "name": "clang-ninja",
-      "displayName": "Clang + Ninja",
-      "description": "Using Clang compiler with Ninja build system",
+      "name": "gcc-ninja",
+      "displayName": "GCC + Ninja",
+      "description": "Using GCC compiler with Ninja build system",
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
-        "CMAKE_C_COMPILER": "clang",
-        "CMAKE_CXX_COMPILER": "clang++",
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_CXX_COMPILER": "g++",
         "CMAKE_BUILD_TYPE": "Release",
         "BUILD_SHARED_LIBS": "ON"
       }

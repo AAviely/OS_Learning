@@ -1,12 +1,10 @@
 #pragma once
 
-#ifdef DLL_EXPORT
-#define DECLDIR __declspec(dllexport)
+#if defined(_WIN32)
+#define ALLOWS_EXPORT __declspec(dllexport)
 #else
-#define DECLDIR __declspec(dllimport)
+#define ALLOWS_EXPORT __attribute__((visibility("default")))
 #endif
 
-extern "C" {
-DECLDIR void Share();
+ALLOWS_EXPORT void Share();
 void Keep();
-}
